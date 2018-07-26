@@ -1,0 +1,248 @@
+
+
+*{
+    box-sizing: border-box;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+
+}
+        /* button hovor colors */
+        .About_button:hover {
+            background-color:rgb(206, 73, 59);
+        }
+        .Portfolio_button:hover {
+                background-color:rgb(206, 73, 59);
+        }
+        .Contact_button:hover {
+                    background-color:rgb(206, 73, 59);
+        }
+     
+.About_button {
+    background-color:rgb(95, 206, 95);
+    color: wheat;
+    text-shadow: .3px .3px rgb(34, 30, 30);
+    float: right;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 26px;
+    width: 170px;
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius:10px;
+    display: inline;
+}
+.Portfolio_button {
+    background-color:rgb(95, 206, 95);
+    color: wheat;
+    text-shadow:  .3px .3px rgb(34, 30, 30);
+    float: right;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 26px;
+    width: 170px;
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius:10px;
+}
+.Contact_button {
+    background-color:rgb(95, 206, 95);
+    color: wheat;
+    text-shadow:  .3px .3px rgb(34, 30, 30);
+    float: right;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 26px;
+    width: 170px;
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius:10px;
+}
+body {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    color:burlywood;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 5px 5px 5px 5px;
+    line-height: 30px;  
+}
+
+/* currently linked with 7.21.18 index.html file  */
+header {
+    font-size:70px;
+    padding-left: 16px;
+    padding-bottom:10px;
+    padding-top: 90px;
+    margin-bottom: 10px;
+    margin-top:20px;
+    background-image: url("https://image.shutterstock.com/image-photo/grunge-burned-wood-texture-black-260nw-567879925.jpg") ;
+    text-align: left;
+    overflow:auto;
+    height:auto;
+    width: 960px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 10px;
+}
+/* applied to all html sites */
+.container {
+    border-radius: 10px;
+    background-color:rgb(206, 73, 59);
+    padding: 20px;
+    width: 960px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position:relative;
+}
+/* wrapper  */
+.wrapper {
+    width:100%;
+    padding: 0px;
+    margin: 0;
+    text-overflow: auto;
+  }
+                /* header is corresponding currently to only the 7.21.18 index.html file. */
+                h1 {
+                    float: left;
+                    color:rgb(34, 30, 30);
+                    text-shadow: 1px 1px burlywood;
+                    background-blend-mode: darken;s
+                    background: rgb(206, 73, 59);
+                    padding:15px;
+                    margin:1px;
+                    border: 10px ridge;
+                    border-right: 0;
+                    border-top: 0;
+                    border-color: mediumseagreen;
+                    border-radius: 10px;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 35px;
+    
+                }
+
+                hr {
+                    color: mediumseagreen;
+                }
+
+                h2 {
+                    font-size: 50px;
+                    color:burlywood;
+                }
+                /* want background of initial About info in p to be faided from background image */
+                p {
+                    text-align: left;
+                    word-spacing: 5px;
+                    width:60px;
+                }
+                section {
+                    width:960px;
+                }
+                #footer{ 
+                    bottom: 0;
+                    background:rgb(206, 73, 59);
+                    width:100%;
+                    margin: 0;
+                    padding:0;
+                    text-align:center;
+                    border-radius: 10px;
+                }
+                br {
+                   opacity: 0;
+                }
+/* attempting to align text in similar area as image form HW */
+# About/Home {
+    float:left;
+    margin:5px;  
+}
+/* linked only currently to 7.21.18 index.html file */
+#Profile-Pic {
+     float:left;
+     height: 200px;
+     padding: 5px;
+     margin-bottom:0 5px 5px 30px ;
+     -ms-wrap-through: wrap;
+     position: relative;
+     border-radius: 15px;
+   
+}
+ /* needed to apply this in the <p> because without it the alignment was really off. */
+.clearfix {
+    overflow: auto;
+}
+    /* attempting to get the <p> in the index.html to wrap around profile picture. */
+.text {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    word-wrap: wrap inherit;
+      }
+         
+
+/* for images on portfolio page */
+/* for HW 2 locate these rows created in activity 11-BootstrapDemo */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+          .column {
+                flex: 25%;
+                max-width: 25%;
+                padding: 5px 5px;
+                }
+                    .img {
+                          height: 200px;
+                          width:200px;
+                          border: 5px, solid,  mediumseagreen;
+                          padding: 5px;
+                        }
+                    .img:hover {
+                         background-color:  rgb(95, 206, 95);
+                         }
+.background {
+    background-image:url("http://s1.picswalls.com/wallpapers/2014/07/19/tree-photo_111651193_73.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    overflow-y: auto;
+    width:100%;
+    height:100%;
+}
+                /* This is trivial but I wanted to override my alignment for my contact text, not working just yet. */
+                
+                #lname1 {
+                    text-align: center;
+                    border:4px ridge mediumseagreen;
+                    border-top:0px;
+                    border-right:0px;
+                }
+
+                #email1 {
+                    text-align: center;
+                    border:4px ridge mediumseagreen;
+                    border-top:0px;
+                    border-right:0px;
+                }
+
+                #subject1 {
+                    text-align: center;
+                    border:2px solid rgb(167, 45, 32);
+                    border-top:0px;
+                    border-right:0px;
+                    border-spacing: 5px;
+                   
+                }
+
+
