@@ -3,32 +3,34 @@
 *{
     box-sizing: border-box;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 26px;
 
 }
         /* button hovor colors */
         .About_button:hover {
             background-color:rgb(206, 73, 59);
+            color:burlywood;
         }
         .Portfolio_button:hover {
                 background-color:rgb(206, 73, 59);
+                color:burlywood;
         }
         .Contact_button:hover {
                     background-color:rgb(206, 73, 59);
+                    color:burlywood;
         }
      
 .About_button {
     background-color:rgb(95, 206, 95);
-    color: wheat;
-    text-shadow: .3px .3px rgb(34, 30, 30);
+    color:rgb(85, 65, 40);
     float: right;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 5px 16px;
     font-size: 26px;
-    width: 170px;
-    margin:10px;
-    font-family: 'Times New Roman', Times, serif;
+    width: 190px;
+    margin:5px 10px;
+    font-family: 'Rubik', sans-serif;
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -37,15 +39,14 @@
 }
 .Portfolio_button {
     background-color:rgb(95, 206, 95);
-    color: wheat;
-    text-shadow:  .3px .3px rgb(34, 30, 30);
+    color:rgb(85, 65, 40);
     float: right;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 5px 16px;
     font-size: 26px;
     width: 170px;
-    margin:10px;
-    font-family: 'Times New Roman', Times, serif;
+    margin:5px 10px;
+    font-family: 'Rubik', sans-serif;
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -53,15 +54,14 @@
 }
 .Contact_button {
     background-color:rgb(95, 206, 95);
-    color: wheat;
-    text-shadow:  .3px .3px rgb(34, 30, 30);
+    color:rgb(85, 65, 40);
     float: right;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 5px 16px;
     font-size: 26px;
     width: 170px;
-    margin:10px;
-    font-family: 'Times New Roman', Times, serif;
+    margin:5px 10px;
+    font-family: 'Rubik', sans-serif;
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -77,15 +77,13 @@ body {
     box-shadow: 5px 5px 5px 5px;
     line-height: 30px;  
 }
-
-/* currently linked with 7.21.18 index.html file  */
 header {
-    font-size:70px;
+    font-size:50px;
     padding-left: 16px;
-    padding-bottom:10px;
-    padding-top: 90px;
+    padding-bottom:5px;
+    padding-top: 50px;
     margin-bottom: 10px;
-    margin-top:20px;
+    margin-top:50px;
     background-image: url("https://image.shutterstock.com/image-photo/grunge-burned-wood-texture-black-260nw-567879925.jpg") ;
     text-align: left;
     overflow:auto;
@@ -95,7 +93,6 @@ header {
     margin-right:auto;
     border-radius: 10px;
 }
-/* applied to all html sites */
 .container {
     border-radius: 10px;
     background-color:rgb(206, 73, 59);
@@ -107,14 +104,12 @@ header {
     margin-bottom: 5%;
     position:relative;
 }
-/* wrapper  */
 .wrapper {
     width:100%;
     padding: 0px;
     margin: 0;
     text-overflow: auto;
   }
-                /* header is corresponding currently to only the 7.21.18 index.html file. */
                 h1 {
                     float: left;
                     color:rgb(34, 30, 30);
@@ -128,7 +123,7 @@ header {
                     border-top: 0;
                     border-color: mediumseagreen;
                     border-radius: 10px;
-                    font-family: 'Times New Roman', Times, serif;
+                    font-family: 'Rubik', sans-serif;
                     font-size: 35px;
     
                 }
@@ -159,9 +154,7 @@ header {
                     text-align:center;
                     border-radius: 10px;
                 }
-                br {
-                   opacity: 0;
-                }
+               
 /* attempting to align text in similar area as image form HW */
 # About/Home {
     float:left;
@@ -188,18 +181,16 @@ header {
     word-break: break-all;
     word-wrap: wrap inherit;
       }
-         
-
 /* for images on portfolio page */
 /* for HW 2 locate these rows created in activity 11-BootstrapDemo */
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 10px;
+    padding: 0 0px;
   }
           .column {
-                flex: 25%;
-                max-width: 25%;
+                flex: 200px;
+                max-width: 200px;
                 padding: 5px 5px;
                 }
                     .img {
@@ -220,29 +211,16 @@ header {
     width:100%;
     height:100%;
 }
-                /* This is trivial but I wanted to override my alignment for my contact text, not working just yet. */
+         /* This is for the contact page, just playing with the fname/lname stuff  */
                 
                 #lname1 {
                     text-align: center;
-                    border:4px ridge mediumseagreen;
-                    border-top:0px;
-                    border-right:0px;
                 }
-
                 #email1 {
                     text-align: center;
-                    border:4px ridge mediumseagreen;
-                    border-top:0px;
-                    border-right:0px;
                 }
-
                 #subject1 {
-                    text-align: center;
-                    border:2px solid rgb(167, 45, 32);
-                    border-top:0px;
-                    border-right:0px;
-                    border-spacing: 5px;
-                   
+                    text-align: center; 
                 }
 
 
