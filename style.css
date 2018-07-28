@@ -202,7 +202,34 @@ header {
                     .img:hover {
                          background-color:  rgb(95, 206, 95);
                          }
-.background {
+               
+                .outer {
+                    position: relative;
+                }
+                 .innerCol1 {
+                    position:absolute;
+                    text-align: center;
+                    font-size: 16px;
+                    color:mediumseagreen;
+                    background: rgb(206, 73, 59);
+                    opacity: .7;
+                    border-radius: 2px;
+                    padding:1px 1px;
+                    margin: -60px 5px 5px 35px;
+                }
+                .innerCol2 {
+                    position:absolute;
+                    text-align: center;
+                    font-size: 16px;
+                    color:mediumseagreen;
+                    background: rgb(206, 73, 59);
+                    opacity: .7;
+                    border-radius: 2px;
+                    padding:1px 1px;
+                    margin: -60px 5px 5px 35px;
+                }
+
+  .background {
     background-image:url("http://s1.picswalls.com/wallpapers/2014/07/19/tree-photo_111651193_73.jpg");
     background-repeat: no-repeat;
     background-size:cover;
