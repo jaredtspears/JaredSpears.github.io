@@ -91,7 +91,9 @@ header {
     width: 960px;
     margin-left: auto;
     margin-right:auto;
-    border-radius: 10px;
+    border-radius: 10px; 
+    /* position static for the @media to work on phone */
+    position: static;
 }
 .container {
     border-radius: 10px;
@@ -249,5 +251,60 @@ header {
                 #subject1 {
                     text-align: center; 
                 }
+
+
+/* media  queries  */
+
+/* full screen */
+@media screen and (max-width:980px) {
+    body {
+        width:960px;
+    }
+    .wrapper {
+        width:960px;
+    }
+
+
+}
+/* medium (tablet size) screen */
+@media screen and (max-width:768px) {
+    body {
+        width: 600px; 
+    }
+
+    .img {
+        height:140px;
+        width:140px;
+    }
+
+    .wrapper {
+        width:600x;
+    }
+}
+
+/* small (phone) screen */
+@media screen and (max-width:640px) {
+    body {
+        width:500px;
+    }
+    .img {
+        height:100px;
+        width:100px;
+    }
+
+    .wrapper {
+        width: 500px;
+    }
+}
+
+/* matching images to the hw images...
+not sure how to add these in... */
+
+`index.html`: [980px](Images/980-index.jpg), [768px](Images/768-index.jpg), [640px](Images/640-index.jpg)
+
+`portfolio.html`: [980px](Images/980-portfolio.jpg), [768px](Images/768-portfolio.jpg), [640px](Images/640-portfolio.jpg)
+
+`contact.html`: [980px](Images/980-contact.jpg), [768px](Images/768-contact.jpg), [640px](Images/640-contact.jpg)
+
 
 

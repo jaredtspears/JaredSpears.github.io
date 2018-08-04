@@ -5,7 +5,7 @@
     <link rel="shortcut icon" type="image/png" href="file:///C:/Users/Jared/Desktop/Course/UNCRAL201807FSF2/01-Class-Content/01-html-git-css/02-Homework/Jared's_Logo.png">
 
     <!-- style sheet of for general CSS that matches other html pages -->
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="mq_style.css" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
@@ -32,14 +32,14 @@
        
 
         input[type=text], select, textarea {
-            width: 925px;
+            width: 100%;
             padding: 12px;
             border: 5px ridge mediumseagreen;
             border-radius: 4px;
             box-sizing: border-box;
             margin-top: 6px;
             margin-bottom: 16px;
-            resize: vertical;
+        
             }
 
             input[type=submit] {
@@ -77,9 +77,9 @@
                Jared Spears
                  
             <div class="buttons">
-                <a class="Contact_button" href="Contact.html">Contact</a>
-                <a class="Portfolio_button" href="Portfolio.html">Portfolio</a>
-                <a class="About_button" href="index.html">About/Home</a>
+                <a class="Contact_button" href="mq_contact.html">Contact</a>
+                <a class="Portfolio_button" href="mq_portfolio.html">Portfolio</a>
+                <a class="About_button" href="mq_index.html">About/Home</a>
             </div>
         
         </header> 
@@ -120,25 +120,8 @@
 
 
   <!-- footer -->
-  <div class="container">
-        <div class="row">
-            <!-- attempting to break into three columns for the footer. -->
-            <div class="col-md-5">
-              <nav class="navbar fixed-bottom navbar-light bg-light">
-                    <!-- didnt know what to do with the footer so I put a back to top button in.-->
-                    <a class="navbar-brand" href="#top">Back to Top</a>
-    
-                <div class="col-md-5">
-                    <!--portion of footer text that should be centered-->
-                  <h1 id="footer">***Creating & Designing since 2018***</h1>
-                </div>
-                <!-- no content in this part of the footer -->
-              <div class="col-md-2">
+  <footer id="footer"> ***Creating & Designing since 2018***
             
-              </div>
-             </nav>
-            </div>
-        </div>
-      </div>
+    </footer>
 </body>
 </html>
